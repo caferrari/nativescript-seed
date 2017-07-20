@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "emitDecoratorMetadata": true,
+        "noUnusedParameters": true,
+        "alwaysStrict": true,
+        "noEmitHelpers": true,
+        "noEmitOnError": true,
+        "skipLibCheck": true,
+        "lib": [
+            "es6",
+            "dom",
+            "es2015.iterable"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./node_modules/tns-core-modules/*",
+                "./node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "app/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "platforms",
+        "**/*.aot.ts",
+        "app/vendor-platform.android.ts"
+    ]
+}

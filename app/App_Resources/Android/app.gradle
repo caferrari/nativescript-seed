@@ -1,0 +1,21 @@
+dependencies {
+	//compile 'com.android.support:recyclerview-v7:+'
+  //compile "com.google.code.gson:gson:2.8.+"
+}
+
+android {
+  defaultConfig {
+    applicationId = "br.eti.ferrari.nativescript"
+    generatedDensities = []
+    multiDexEnabled true
+  }
+  aaptOptions {
+    additionalParameters "--no-version-vectors"
+  }
+  dexOptions {
+    javaMaxHeapSize "4g"
+  }
+  project.ext {
+    googlePlayServicesVersion = "11.0.+"
+  }
+}

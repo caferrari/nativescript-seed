@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "**/.tmp": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/*.lock.json": true,
+    "**/obj/**": true,
+    "**/bin/**": true,
+    "platforms": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.map": {
+      "when": "$(basename)"
+    },
+    "**/*.css": {
+      "when": "$(basename).scss"
+    }
+  },
+  "tslint.rulesDirectory": "./node_modules/codelyzer",
+  "editor.formatOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "typescriptHero.resolver.ignorePatterns": [
+    "typescript",
+    "tslint",
+    "node_modules/typings",
+    "node_modules/typings-core",
+    "build",
+    "out",
+    "dist",
+    "platforms"
+  ]
+}

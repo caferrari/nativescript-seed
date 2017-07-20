@@ -1,0 +1,102 @@
+@import '~nativescript-theme-core/scss/light';
+@import '~nativescript-theme-core/scss/index';
+Label,
+Button {
+  font-family: 'OpenSans';
+}
+
+.font-awesome {
+  font-family: 'FontAwesome';
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+.icon {
+  font-family: 'MaterialIcons';
+  color: #333;
+}
+
+.action-bar {
+  background-color: #0B86C8;
+  color: white;
+}
+
+.card-view {
+  background-color: #EDEDED;
+}
+
+.cardStyle {
+  margin: 10;
+  background-color: white;
+}
+
+.cardContent {
+  margin: 10;
+}
+
+.cardTitle {
+  font-size: 18;
+  color: #bbb;
+  margin-bottom: 10;
+}
+
+.sidedrawer-left {
+  .header {
+    background-color: #0B86C8;
+    label {
+      margin: 10 10 10 15;
+      color: white;
+      font-size: 16;
+      padding: 0;
+    }
+  }
+  .sidedrawer-list-item-text {
+    border-color: transparent;
+    background-color: transparent;
+    width: 100%;
+  }
+  .menu-item {
+    padding: 6 15;
+    .counter {
+      vertical-align: center;
+      label {
+        vertical-align: center;
+        background-color: #0B86C8;
+        color: white;
+        font-size: 12;
+        border-radius: 3;
+        padding: 2 4;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.tip {
+  color: #AAAAAA;
+}
+
+.area {
+  padding: 10 20;
+  background-color: #F8F8F8;
+  font-weight: bold;
+  font-size: 16;
+}
+
+.input-error {
+  color: red;
+}
+
+ripple.button {
+  margin: 10 5 0 5;
+  button {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 1;
+    color: #07A274;
+    padding: 0;
+    height: 30;
+  }
+}
